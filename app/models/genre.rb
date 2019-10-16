@@ -11,6 +11,7 @@ class Genre < ActiveRecord::Base
   end
 
   def all_artist_names
-    self.artists.map do |
+    self.artists.map do |n| 
+      
   end
 end
